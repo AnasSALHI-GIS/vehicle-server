@@ -7,4 +7,5 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - run: ls -l
+      - run : cowsay apt-get install
       - run: cat README.md | cowsay
